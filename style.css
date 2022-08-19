@@ -1,0 +1,167 @@
+body{
+    background-color: rgb(247, 249, 248);
+    margin: 0px;
+    padding: 0px;
+    font-family: cursive;
+}
+header{
+    display: flex;
+    background-color: aquamarine;
+    flex-wrap: wrap;
+    
+    
+}
+.brand{
+    font-family: cursive;
+    margin-left: 20px;
+}
+.search input{
+          height: 28px;
+          width: 400px;
+          margin-top: 30px;
+          border-radius: 15px;
+          border-color: black;
+          text-decoration-color: black;
+}
+.search{
+    margin-left: 350px;
+    display: flex;
+   
+}
+.img{
+    margin-top: 34px;
+    margin-left: 5px;
+    height: 28px; 
+    width: 30px;
+    
+}
+.end{
+    display: flex;
+    margin-top: 34px;
+    margin-left: 435px;
+    flex-wrap: wrap;
+    
+}
+.line{
+    border-radius: 50%;
+    height:35px ;
+    width: 2px;
+    margin-left: 5px;
+    margin-right: 5px;
+    background-color: black;
+}
+.nav{
+    height: 40px;
+    background-color: rgb(170, 230, 210);
+    width: 100%;
+}
+.nav ul{
+    overflow:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    flex-wrap: wrap;
+    
+}
+.nav li{
+    float: left;
+    list-style: none;
+    margin-left: 10px;
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 5px;
+}
+.nav li a{
+    text-decoration: none;
+    color: black;
+}
+.nav a:hover{
+    color: coral;
+}
+.nav span{
+    float: left;
+    margin-top: 9px ;
+    margin-left: 30px;
+    margin-right: 20px;
+    height: 20px;
+    width: 2px;
+    background-color: black;
+}
+.offr {
+    padding-top: 3%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.offr img{
+    border-radius: 20px;
+    border: 2px solid black;
+    cursor: pointper;
+}
+.offr h1{
+    width: 200px;
+}
+.bst h1{
+    margin-left: 10px;
+}
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3% ;
+    
+}
+ .cont img{
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 90px;
+    cursor: pointer;
+ }
+
+ .brand{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    
+}
+.brand img{
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.spc{
+    margin-top:  20px;
+}
+footer{
+    display: grid;
+    
+    margin-top: 20px;
+    height: 200px;
+    border-top: 2px solid black;
+    justify-content: center;
+    align-items: center;
+}
+.foot{
+    width: 500px;
+}
+footer h2{
+    margin-left: 160px;
+}
+footer i{
+    font-size: x-large;
+    margin-left: 50px;
+    cursor: pointer;
+    
+}
+.social{
+    margin-left: 80px;
+}
+.copy{
+
+    margin-left: 106px;
+}
+
+
+
